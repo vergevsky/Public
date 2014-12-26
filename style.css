@@ -1,0 +1,62 @@
+@import "http://webfonts.ru/import/nautilus.css";
+
+*{
+	max-width: 100%;
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #e3e6f0;
+}
+
+header{
+	background: #fff;
+	height: 60px;
+}
+
+.width{
+	width: 840px;
+	position: relative;
+	left: 50%;
+	margin-left: -420px;
+	height: 100%;
+}
+
+#logo{
+	width: 250px;
+	border-right: 1px solid #eee;
+	height: 100%;
+	padding: 6px 0 0 15px;
+	font-family: 'Nautilus Pompilius';
+	font-size: 38px;
+	color:#5d70b2; 
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top:-18px;
+}
+
+#topnav{
+	width: 275px;
+	border-right: 1px solid #eee;
+	height: 100%;
+	padding: 0 25px;
+	display: inline-block;
+}
+
+#topnav img{
+	margin: 20px 15px;
+	cursor: pointer;
+}
+
+#user{
+	width: 275px;
+	border-right: 1px solid #eee;
+	height: 100%;
+	padding: 6px 30px;
+	display: inline-block;
+	position: relative;
+	top:-41px;
+}
